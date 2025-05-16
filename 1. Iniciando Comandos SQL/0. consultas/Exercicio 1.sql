@@ -1,0 +1,31 @@
+
+
+-- ====================================== EXERCICIO 
+
+
+
+-- ====================================== QUESTÃO 1
+
+SELECT 
+    TOTAL_USUARIOS AS TOTAL_DE_ACESSO,
+	TIPO_DE_CONTA AS CONTA,
+	VALOR AS VALOR_DE_VENDA,
+	ESTADOS AS LOCAIS
+FROM TB_Flix
+WHERE PERIODO_DE_ACESSOS = 'MANHA'
+
+
+
+-- ====================================== QUESTÃO 2
+
+SELECT 
+    TOTAL_USUARIOS AS TOTAL_DE_ACESSO,
+	TIPO_DE_CONTA AS CONTA,
+	VALOR AS VALOR_DE_VENDA,
+	ESTADOS AS LOCAIS
+FROM TB_Flix
+WHERE TOTAL_USUARIOS IN ('8480','997','4162','241','3656')
+
+
+SELECT * FROM TB_Flix
+
